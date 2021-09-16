@@ -24,7 +24,12 @@ Framework desenvolvido pela google com o objetivo de facilitar o processo de com
 
 ## Protocol Buffers vs Json
 
-[Comparação](https://www.notion.so/b9f4c4f3f949491ba99868a96c26ce17)
+| Protocol Buffers | JSON |
+| :---: | :---: |
+| Arquivos binários | JSON |
+| Processamento mais leve | - |
+| Gasta menos recursos de rede | - |
+| Processo mais veloz | - |
 
 ## Protocol Buffers
 
@@ -71,7 +76,15 @@ message Person {
 
 ## REST vc gRPC
 
-[Comparação](https://www.notion.so/3fc1d93abee54fc1b05d8b79e36a9778)
+| REST | gRPC |
+| :---: | :---: |
+| Texto / JSON | Protocol Buffers (arquivos binários) |
+| Unidirecional | Bidirecional e Assíncrono |
+| Alta latência | Baixa latência |
+| Sem contrato (maior chance de erros) | Contrato definido (.proto) |
+| Sem suporte a streaming (Request / Response) | Suporte a streaming |
+| Design pré-definido | Design é livre |
+| Bibliotecas de terceiro | Geração de código |
 
 ## Links
 - [**Protocol buffers**](https://developers.google.com/protocol-buffers/)
